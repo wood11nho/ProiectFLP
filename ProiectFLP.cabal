@@ -25,7 +25,12 @@ source-repository head
 
 library
   exposed-modules:
+      Exp
+      Lab2
       Lib
+      Parsing
+      Printing
+      REPLCommand
   other-modules:
       Paths_ProiectFLP
   hs-source-dirs:
@@ -33,6 +38,7 @@ library
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       base >=4.7 && <5
+    , parsec >=3.1.14.0
   default-language: Haskell2010
 
 executable ProiectFLP-exe
@@ -45,6 +51,7 @@ executable ProiectFLP-exe
   build-depends:
       ProiectFLP
     , base >=4.7 && <5
+    , parsec >=3.1.14.0
   default-language: Haskell2010
 
 test-suite ProiectFLP-test
@@ -58,4 +65,5 @@ test-suite ProiectFLP-test
   build-depends:
       ProiectFLP
     , base >=4.7 && <5
+    , parsec >=3.1.14.0
   default-language: Haskell2010
