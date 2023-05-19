@@ -1,3 +1,4 @@
+{-# OPTIONS_GHC -Wno-missing-export-lists #-}
 module Exp where
 
 newtype Var = Var { getVar :: String }

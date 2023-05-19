@@ -1,3 +1,4 @@
+{-# OPTIONS_GHC -Wno-missing-export-lists #-}
 module Lab2 where
 
 import Control.Applicative ( Alternative(..) )
