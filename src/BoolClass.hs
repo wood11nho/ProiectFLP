@@ -1,5 +1,7 @@
-{-# OPTIONS_GHC -Wno-unused-imports #-}
+{-# LANGUAGE RankNTypes #-}
 {-# OPTIONS_GHC -Wno-missing-export-lists #-}
+{-# OPTIONS_GHC -Wno-unused-imports #-}
+
 module BoolClass where
 
 import Prelude (Show (..), (<>), undefined) -- for show instances
